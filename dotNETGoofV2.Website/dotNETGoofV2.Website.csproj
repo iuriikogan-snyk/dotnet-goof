@@ -19,18 +19,18 @@
     <None Remove="Microsoft.Owin" />
   </ItemGroup>
   <ItemGroup>
-    <PackageReference Include="Blogifier.Core" Version="2.5.5" />
-    <PackageReference Include="bootstrap" Version="4.1.0" />
-    <PackageReference Include="Confluent.Kafka" Version="1.0.0" />
+    <PackageReference Include="Blogifier.Core" Version="5.0.1" />
+    <PackageReference Include="bootstrap" Version="4.3.1" />
+    <PackageReference Include="Confluent.Kafka" Version="1.9.0" />
     <PackageReference Include="EJS" Version="1.0.0" />
-    <PackageReference Include="Halibut" Version="4.4.4" />
+    <PackageReference Include="Halibut" Version="4.4.7" />
     <PackageReference Include="itext7" Version="7.1.14" />
-    <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="5.0.2" />
+    <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="5.0.1" />
     <PackageReference Include="Microsoft.AspNet.SignalR" Version="2.4.2" />
-    <PackageReference Include="ServiceStack" Version="5.9.0" />
-    <PackageReference Include="Svg" Version="3.2.3" />
+    <PackageReference Include="ServiceStack" Version="5.9.2" />
+    <PackageReference Include="Svg" Version="3.4.4" />
     <PackageReference Include="System.Text.Encodings.Web" Version="4.5.1" />
-    <PackageReference Include="TinyMCE" Version="4.8.2" />
+    <PackageReference Include="TinyMCE" Version="7.0.0" />
     <PackageReference Include="Wire" Version="1.0.0" />
   </ItemGroup>
 </Project>
