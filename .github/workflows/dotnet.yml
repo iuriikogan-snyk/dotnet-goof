@@ -28,7 +28,7 @@ jobs:
       env:
           SNYK_TOKEN: ${{ secrets.SNYK_TOKEN }}
       run: |
-        curl --compressed https://static.snyk.io/cli/latest/snyk-macos -o snyk
+        curl --compressed https://github.com/snyk/cli/releases/download/v1.1291.0/snyk-linux -o snyk
         chmod +x ./snyk
         mv ./snyk /usr/local/bin/
         snyk auth $SNYK_TOKEN
