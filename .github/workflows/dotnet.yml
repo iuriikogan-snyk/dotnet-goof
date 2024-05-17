@@ -30,7 +30,7 @@ jobs:
           SNYK_TOKEN: ${{ secrets.SNYK_TOKEN }}
       with:
         command: monitor
-        args: --all-projects --dotnet-runtime-dependencies --dotnet-runtime=net5.0
+        args: --all-projects --dotnet-runtime-dependencies --dotnet-target-framework=net5.0
     - name: Snyk Code Vulnerability Monitor
       uses: snyk/actions/dotnet@master
       continue-on-error: true
