@@ -28,9 +28,8 @@ jobs:
       env:
           SNYK_TOKEN: ${{ secrets.SNYK_TOKEN }}
       run: |
-        curl --compressed https://github.com/snyk/cli/releases/download/v1.1291.0/snyk-linux -o snyk
-        chmod +x ./snyk
-        mv ./snyk /usr/local/bin/
+        brew tap snyk/tap
+        brew install snyk
         snyk auth $SNYK_TOKEN
         snyk test  --file=dotNETGoofV2.sln --dotnet-runtime-resolution --dotnet-target-framework=net5.0 -d || true
     - name: Snyk Code Vulnerability Monitor
