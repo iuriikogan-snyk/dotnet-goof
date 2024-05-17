@@ -29,7 +29,7 @@ jobs:
       env:
           SNYK_TOKEN: ${{ secrets.SNYK_TOKEN }}
       with:
-        command: monitor
+        command: test
         args: --file=dotNETGoofV2.sln --dotnet-runtime-resolution --dotnet-target-framework=net5.0
     - name: Snyk Code Vulnerability Monitor
       uses: snyk/actions/dotnet@master
