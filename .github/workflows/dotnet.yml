@@ -28,8 +28,7 @@ jobs:
       env:
           SNYK_TOKEN: ${{ secrets.SNYK_TOKEN }}
       run: |
-        brew tap snyk/tap
-        brew install snyk
+        npm install snyk --global
         snyk auth $SNYK_TOKEN
         snyk test  --file=dotNETGoofV2.sln --dotnet-runtime-resolution --dotnet-target-framework=net5.0 -d || true
     - name: Snyk Code Vulnerability Monitor
