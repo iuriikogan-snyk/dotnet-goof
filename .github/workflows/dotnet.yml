@@ -31,7 +31,7 @@ jobs:
         npm install snyk --global
         snyk auth $SNYK_TOKEN
         dotnet build --no-restore
-        snyk test  --file=dotNETGoofV2.sln --dotnet-runtime-resolution --dotnet-target-framework=net5.0
+        snyk test  --file=dotNETGoofV2.sln --dotnet-runtime-resolution --dotnet-target-framework=net5.0 -d
     - name: Snyk Code Vulnerability Monitor
       uses: snyk/actions/dotnet@master
       continue-on-error: true
