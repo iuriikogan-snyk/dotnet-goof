@@ -16,7 +16,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyProductAttribute("dotNETGoofV2.Website")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+eaa19dcae03bedaf1e37fd2fbbcf782c68fc3432")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+983021361134afa859f90764f901e1fbd1a3020f")]
 [assembly: System.Reflection.AssemblyTitleAttribute("dotNETGoofV2.Website.Views")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
 
