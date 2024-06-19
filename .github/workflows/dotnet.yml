@@ -29,7 +29,7 @@ jobs:
       env:
           SNYK_TOKEN: ${{ secrets.SNYK_TOKEN }}
       with:
-        command: find . -type f -name "project.assets.json" -exec sh -c 'snyk test --file="$0"' {} \;
+        command: snyk test --all-projects
     - name: Snyk Code Vulnerability Monitor
       uses: snyk/actions/dotnet@master
       continue-on-error: true
