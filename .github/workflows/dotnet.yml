@@ -25,13 +25,12 @@ jobs:
     - name: Test
       run: dotnet test --no-build --verbosity normal
     - name: Snyk OS Vulnerability Monitor
+      uses: snyk/actions/dotnet@master
       env:
           SNYK_TOKEN: ${{ secrets.SNYK_TOKEN }}
-      run: |
-        npm install snyk --global
-        snyk auth $SNYK_TOKEN
-        dotnet build --no-restore
-        snyk monitor  --file=dotNETGoofV2.sln --dotnet-runtime-resolution --dotnet-target-framework=net5.0 -d
+      with:
+        command: test
+        args: --all-projects
     - name: Snyk Code Vulnerability Monitor
       uses: snyk/actions/dotnet@master
       continue-on-error: true
