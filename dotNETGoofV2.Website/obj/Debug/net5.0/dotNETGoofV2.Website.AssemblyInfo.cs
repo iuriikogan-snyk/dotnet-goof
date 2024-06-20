@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("dotNETGoofV2.Website")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+0dff2a8c9b2cbbb78eb7482450b43f824d84878b")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+dba9d069782c459e387fb4f27a72f71852a20667")]
 [assembly: System.Reflection.AssemblyProductAttribute("dotNETGoofV2.Website")]
 [assembly: System.Reflection.AssemblyTitleAttribute("dotNETGoofV2.Website")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

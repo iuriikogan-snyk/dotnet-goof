@@ -69,11 +69,11 @@
             },
             "ServiceStack": {
               "target": "Package",
-              "version": "[5.9.0, )"
+              "version": "[3.4.4, )"
             },
             "Svg": {
               "target": "Package",
-              "version": "[3.2.3, )"
+              "version": "[3.4.4, )"
             },
             "System.Text.Encodings.Web": {
               "target": "Package",
