@@ -1,7 +1,7 @@
 {
   "version": 3,
   "targets": {
-    "net6.0": {
+    "net5.0": {
       "Askmethat.Aspnet.JsonLocalizer/2.1.2": {
         "type": "package",
         "dependencies": {
@@ -117,10 +117,10 @@
       "ExCSS/4.1.4": {
         "type": "package",
         "compile": {
-          "lib/net6.0/ExCSS.dll": {}
+          "lib/net5.0/ExCSS.dll": {}
         },
         "runtime": {
-          "lib/net6.0/ExCSS.dll": {}
+          "lib/net5.0/ExCSS.dll": {}
         }
       },
       "Fizzler/1.2.1": {
@@ -12453,7 +12453,7 @@
     }
   },
   "projectFileDependencyGroups": {
-    "net6.0": [
+    "net5.0": [
       "Blogifier.Core >= 2.5.5",
       "Confluent.Kafka >= 1.0.0",
       "EJS >= 1.0.0",
@@ -12485,14 +12485,14 @@
         "/Users/iuriikogan/.nuget/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
-        "net6.0"
+        "net5.0"
       ],
       "sources": {
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
-        "net6.0": {
-          "targetAlias": "net6.0",
+        "net5.0": {
+          "targetAlias": "net5.0",
           "projectReferences": {}
         }
       },
@@ -12508,8 +12508,8 @@
       }
     },
     "frameworks": {
-      "net6.0": {
-        "targetAlias": "net6.0",
+      "net5.0": {
+        "targetAlias": "net5.0",
         "dependencies": {
           "Blogifier.Core": {
             "target": "Package",
@@ -12578,15 +12578,15 @@
         "downloadDependencies": [
           {
             "name": "Microsoft.AspNetCore.App.Ref",
-            "version": "[6.0.30, 6.0.30]"
+            "version": "[5.0.0, 5.0.0]"
           },
           {
-            "name": "Microsoft.NETCore.App.Host.osx-arm64",
-            "version": "[6.0.30, 6.0.30]"
+            "name": "Microsoft.NETCore.App.Host.osx-x64",
+            "version": "[5.0.17, 5.0.17]"
           },
           {
             "name": "Microsoft.NETCore.App.Ref",
-            "version": "[6.0.30, 6.0.30]"
+            "version": "[5.0.0, 5.0.0]"
           }
         ],
         "frameworkReferences": {
@@ -12609,7 +12609,7 @@
       "message": "dotNETGoofV2.Website depends on ServiceStack (>= 3.4.4) but ServiceStack 3.4.4 was not found. An approximate best match of ServiceStack 3.4.8 was resolved.",
       "libraryId": "ServiceStack",
       "targetGraphs": [
-        "net6.0"
+        "net5.0"
       ]
     },
     {
@@ -12619,7 +12619,7 @@
       "message": "ServiceStack 3.4.8 does not provide an inclusive lower bound for dependency ServiceStack.Common. An approximate best match of ServiceStack.Common 3.0.6 was resolved.",
       "libraryId": "ServiceStack.Common",
       "targetGraphs": [
-        "net6.0"
+        "net5.0"
       ]
     },
     {
@@ -12629,7 +12629,7 @@
       "message": "ServiceStack 3.4.8 does not provide an inclusive lower bound for dependency ServiceStack.OrmLite.SqlServer. An approximate best match of ServiceStack.OrmLite.SqlServer 2.9.0 was resolved.",
       "libraryId": "ServiceStack.OrmLite.SqlServer",
       "targetGraphs": [
-        "net6.0"
+        "net5.0"
       ]
     },
     {
@@ -12639,7 +12639,7 @@
       "message": "ServiceStack 3.4.8 does not provide an inclusive lower bound for dependency ServiceStack.Redis. An approximate best match of ServiceStack.Redis 2.9.0 was resolved.",
       "libraryId": "ServiceStack.Redis",
       "targetGraphs": [
-        "net6.0"
+        "net5.0"
       ]
     },
     {
@@ -12649,7 +12649,7 @@
       "message": "ServiceStack.Common 3.0.6 does not provide an inclusive lower bound for dependency ServiceStack.Text. An approximate best match of ServiceStack.Text 2.9.0 was resolved.",
       "libraryId": "ServiceStack.Text",
       "targetGraphs": [
-        "net6.0"
+        "net5.0"
       ]
     },
     {
@@ -12659,7 +12659,7 @@
       "message": "Package 'bootstrap' 4.1.0 has a known moderate severity vulnerability, https://github.com/advisories/GHSA-9v3m-8fp8-mj99",
       "libraryId": "bootstrap",
       "targetGraphs": [
-        "net6.0"
+        "net5.0"
       ]
     },
     {
@@ -12669,7 +12669,7 @@
       "message": "Package 'Halibut' 4.4.4 has a known critical severity vulnerability, https://github.com/advisories/GHSA-hpf7-4c2g-9chf",
       "libraryId": "Halibut",
       "targetGraphs": [
-        "net6.0"
+        "net5.0"
       ]
     },
     {
@@ -12679,7 +12679,7 @@
       "message": "Package 'ServiceStack' 3.4.8 has a known moderate severity vulnerability, https://github.com/advisories/GHSA-v5rv-hpxg-8x49",
       "libraryId": "ServiceStack",
       "targetGraphs": [
-        "net6.0"
+        "net5.0"
       ]
     },
     {
@@ -12689,7 +12689,7 @@
       "message": "Package 'TinyMCE' 4.8.2 has a known moderate severity vulnerability, https://github.com/advisories/GHSA-438c-3975-5x3f",
       "libraryId": "TinyMCE",
       "targetGraphs": [
-        "net6.0"
+        "net5.0"
       ]
     },
     {
@@ -12699,7 +12699,7 @@
       "message": "Package 'TinyMCE' 4.8.2 has a known moderate severity vulnerability, https://github.com/advisories/GHSA-5359-pvf2-pw78",
       "libraryId": "TinyMCE",
       "targetGraphs": [
-        "net6.0"
+        "net5.0"
       ]
     },
     {
@@ -12709,7 +12709,7 @@
       "message": "Package 'TinyMCE' 4.8.2 has a known moderate severity vulnerability, https://github.com/advisories/GHSA-5h9g-x5rv-25wg",
       "libraryId": "TinyMCE",
       "targetGraphs": [
-        "net6.0"
+        "net5.0"
       ]
     },
     {
@@ -12719,7 +12719,7 @@
       "message": "Package 'TinyMCE' 4.8.2 has a known moderate severity vulnerability, https://github.com/advisories/GHSA-9hcv-j9pv-qmph",
       "libraryId": "TinyMCE",
       "targetGraphs": [
-        "net6.0"
+        "net5.0"
       ]
     },
     {
@@ -12729,7 +12729,7 @@
       "message": "Package 'TinyMCE' 4.8.2 has a known moderate severity vulnerability, https://github.com/advisories/GHSA-gg8r-xjwq-4w92",
       "libraryId": "TinyMCE",
       "targetGraphs": [
-        "net6.0"
+        "net5.0"
       ]
     },
     {
@@ -12739,7 +12739,7 @@
       "message": "Package 'TinyMCE' 4.8.2 has a known moderate severity vulnerability, https://github.com/advisories/GHSA-hgqx-r2hp-jr38",
       "libraryId": "TinyMCE",
       "targetGraphs": [
-        "net6.0"
+        "net5.0"
       ]
     },
     {
@@ -12749,7 +12749,7 @@
       "message": "Package 'TinyMCE' 4.8.2 has a known moderate severity vulnerability, https://github.com/advisories/GHSA-r8hm-w5f7-wj39",
       "libraryId": "TinyMCE",
       "targetGraphs": [
-        "net6.0"
+        "net5.0"
       ]
     },
     {
@@ -12759,7 +12759,7 @@
       "message": "Package 'TinyMCE' 4.8.2 has a known moderate severity vulnerability, https://github.com/advisories/GHSA-v626-r774-j7f8",
       "libraryId": "TinyMCE",
       "targetGraphs": [
-        "net6.0"
+        "net5.0"
       ]
     },
     {
@@ -12769,7 +12769,7 @@
       "message": "Package 'TinyMCE' 4.8.2 has a known moderate severity vulnerability, https://github.com/advisories/GHSA-v65r-p3vv-jjfv",
       "libraryId": "TinyMCE",
       "targetGraphs": [
-        "net6.0"
+        "net5.0"
       ]
     },
     {
@@ -12779,7 +12779,7 @@
       "message": "Package 'TinyMCE' 4.8.2 has a known moderate severity vulnerability, https://github.com/advisories/GHSA-w7jx-j77m-wp65",
       "libraryId": "TinyMCE",
       "targetGraphs": [
-        "net6.0"
+        "net5.0"
       ]
     },
     {
@@ -12789,7 +12789,7 @@
       "message": "Package 'TinyMCE' 4.8.2 has a known moderate severity vulnerability, https://github.com/advisories/GHSA-w9jx-4g6g-rp7x",
       "libraryId": "TinyMCE",
       "targetGraphs": [
-        "net6.0"
+        "net5.0"
       ]
     },
     {
@@ -12799,117 +12799,117 @@
       "message": "Package 'Wire' 1.0.0 has a known critical severity vulnerability, https://github.com/advisories/GHSA-hpw7-3vq3-mmv6",
       "libraryId": "Wire",
       "targetGraphs": [
-        "net6.0"
+        "net5.0"
       ]
     },
     {
       "code": "NU1701",
       "level": "Warning",
       "warningLevel": 1,
-      "message": "Package 'Microsoft.AspNet.SignalR.Core 2.4.2' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework 'net6.0'. This package may not be fully compatible with your project.",
+      "message": "Package 'Microsoft.AspNet.SignalR.Core 2.4.2' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework 'net5.0'. This package may not be fully compatible with your project.",
       "libraryId": "Microsoft.AspNet.SignalR.Core",
       "targetGraphs": [
-        "net6.0"
+        "net5.0"
       ]
     },
     {
       "code": "NU1701",
       "level": "Warning",
       "warningLevel": 1,
-      "message": "Package 'Microsoft.AspNet.SignalR.SystemWeb 2.4.2' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework 'net6.0'. This package may not be fully compatible with your project.",
+      "message": "Package 'Microsoft.AspNet.SignalR.SystemWeb 2.4.2' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework 'net5.0'. This package may not be fully compatible with your project.",
       "libraryId": "Microsoft.AspNet.SignalR.SystemWeb",
       "targetGraphs": [
-        "net6.0"
+        "net5.0"
       ]
     },
     {
       "code": "NU1701",
       "level": "Warning",
       "warningLevel": 1,
-      "message": "Package 'Microsoft.Owin 2.1.0' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework 'net6.0'. This package may not be fully compatible with your project.",
+      "message": "Package 'Microsoft.Owin 2.1.0' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework 'net5.0'. This package may not be fully compatible with your project.",
       "libraryId": "Microsoft.Owin",
       "targetGraphs": [
-        "net6.0"
+        "net5.0"
       ]
     },
     {
       "code": "NU1701",
       "level": "Warning",
       "warningLevel": 1,
-      "message": "Package 'Microsoft.Owin.Host.SystemWeb 2.1.0' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework 'net6.0'. This package may not be fully compatible with your project.",
+      "message": "Package 'Microsoft.Owin.Host.SystemWeb 2.1.0' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework 'net5.0'. This package may not be fully compatible with your project.",
       "libraryId": "Microsoft.Owin.Host.SystemWeb",
       "targetGraphs": [
-        "net6.0"
+        "net5.0"
       ]
     },
     {
       "code": "NU1701",
       "level": "Warning",
       "warningLevel": 1,
-      "message": "Package 'Microsoft.Owin.Security 2.1.0' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework 'net6.0'. This package may not be fully compatible with your project.",
+      "message": "Package 'Microsoft.Owin.Security 2.1.0' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework 'net5.0'. This package may not be fully compatible with your project.",
       "libraryId": "Microsoft.Owin.Security",
       "targetGraphs": [
-        "net6.0"
+        "net5.0"
       ]
     },
     {
       "code": "NU1701",
       "level": "Warning",
       "warningLevel": 1,
-      "message": "Package 'Owin 1.0.0' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework 'net6.0'. This package may not be fully compatible with your project.",
+      "message": "Package 'Owin 1.0.0' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework 'net5.0'. This package may not be fully compatible with your project.",
       "libraryId": "Owin",
       "targetGraphs": [
-        "net6.0"
+        "net5.0"
       ]
     },
     {
       "code": "NU1701",
       "level": "Warning",
       "warningLevel": 1,
-      "message": "Package 'ServiceStack 3.4.8' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework 'net6.0'. This package may not be fully compatible with your project.",
+      "message": "Package 'ServiceStack 3.4.8' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework 'net5.0'. This package may not be fully compatible with your project.",
       "libraryId": "ServiceStack",
       "targetGraphs": [
-        "net6.0"
+        "net5.0"
       ]
     },
     {
       "code": "NU1701",
       "level": "Warning",
       "warningLevel": 1,
-      "message": "Package 'ServiceStack.Common 3.0.6' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework 'net6.0'. This package may not be fully compatible with your project.",
+      "message": "Package 'ServiceStack.Common 3.0.6' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework 'net5.0'. This package may not be fully compatible with your project.",
       "libraryId": "ServiceStack.Common",
       "targetGraphs": [
-        "net6.0"
+        "net5.0"
       ]
     },
     {
       "code": "NU1701",
       "level": "Warning",
       "warningLevel": 1,
-      "message": "Package 'ServiceStack.OrmLite.SqlServer 2.9.0' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework 'net6.0'. This package may not be fully compatible with your project.",
+      "message": "Package 'ServiceStack.OrmLite.SqlServer 2.9.0' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework 'net5.0'. This package may not be fully compatible with your project.",
       "libraryId": "ServiceStack.OrmLite.SqlServer",
       "targetGraphs": [
-        "net6.0"
+        "net5.0"
       ]
     },
     {
       "code": "NU1701",
       "level": "Warning",
       "warningLevel": 1,
-      "message": "Package 'ServiceStack.Redis 2.9.0' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework 'net6.0'. This package may not be fully compatible with your project.",
+      "message": "Package 'ServiceStack.Redis 2.9.0' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework 'net5.0'. This package may not be fully compatible with your project.",
       "libraryId": "ServiceStack.Redis",
       "targetGraphs": [
-        "net6.0"
+        "net5.0"
       ]
     },
     {
       "code": "NU1701",
       "level": "Warning",
       "warningLevel": 1,
-      "message": "Package 'ServiceStack.Text 2.9.0' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework 'net6.0'. This package may not be fully compatible with your project.",
+      "message": "Package 'ServiceStack.Text 2.9.0' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework 'net5.0'. This package may not be fully compatible with your project.",
       "libraryId": "ServiceStack.Text",
       "targetGraphs": [
-        "net6.0"
+        "net5.0"
       ]
     }
   ]
