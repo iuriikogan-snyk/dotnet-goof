@@ -1,0 +1,5 @@
+is_global = true
+build_property.RootNamespace = dotNETGoofV2.Website
+build_property.ProjectDir = /Users/iuriikogan/Development/github.com/iuriikogan-snyk/dotnet-goof/dotNETGoofV2.Website/
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 
