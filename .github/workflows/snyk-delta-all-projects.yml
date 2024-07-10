@@ -1,8 +1,10 @@
 name: Snyk Delta All Projects
 
 on:
+  workflow_dispatch:
   push: {}
-
+  pull_request:
+    branches: main
 jobs:
   snyk-delta:
     runs-on: ubuntu-latest
@@ -11,7 +13,9 @@ jobs:
       - name: Install Snyk & Snyk-Delta  
         run: npm install -g snyk snyk-delta
       - name: Run snyk_delta_all_projects.sh
-        run: ${{ github.workspace }}/gha-scripts/snyk_delta_all_projects.sh --exclude=scripts
+        run: |
+          chmod +x snyk_delta_all_projects.sh
+          ./snyk_delta_all_projects.sh --exclude=scripts
         shell: bash
     
 env:
