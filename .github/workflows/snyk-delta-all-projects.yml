@@ -21,7 +21,10 @@ jobs:
             npm install -g snyk snyk-delta  
             snyk auth $SNYK_TOKEN
       - name: Run snyk_delta_all_projects.sh
-        run: curl https://github.com/snyk-tech-services/snyk-delta/blob/83047d39e42200d4ac3af4c69e429bb970df3566/snyk_delta_all_projects.sh | sh
+        run: |
+            curl https://github.com/snyk-tech-services/snyk-delta/blob/83047d39e42200d4ac3af4c69e429bb970df3566/snyk_delta_all_projects.sh
+            chmod +x snyk_delta_all_projects.sh
+            ./snyk_delta_all_projects.sh --exclude=scripts
         continue-on-error: true
 
 env:
