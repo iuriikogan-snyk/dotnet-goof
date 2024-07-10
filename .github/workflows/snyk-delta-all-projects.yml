@@ -13,11 +13,7 @@ jobs:
         run: sudo apt-get update && sudo apt-get install -y jq
 
       - name: Run snyk_delta_all_projects.sh
-        uses: actions/checkout@v3
-        uses: ./snyk_delta_all_projects.sh
-        with:
-          severity: high  # You can set additional arguments here
-          exclude: scripts  # You can add more comma-separated exclusions
+        run: ./snyk_delta_all_projects.sh --exclude=scripts
 
 env:
   # Store your Snyk token as a secret named 'SNYK_TOKEN'
