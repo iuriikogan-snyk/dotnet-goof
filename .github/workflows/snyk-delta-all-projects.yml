@@ -21,7 +21,7 @@ jobs:
             npm install -g snyk snyk-delta  
             snyk auth $SNYK_TOKEN
       - name: Run snyk_delta_all_projects.sh
-        run: ./snyk-delta-all-projects.sh --exclude=scripts
+        run: ./snyk-delta-all-projects.sh --exclude=scripts --json-file-output=results.json
         shell: bash
 
 env:
