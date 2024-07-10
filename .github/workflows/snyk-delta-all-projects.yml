@@ -17,9 +17,9 @@ jobs:
         shell: bash
 
       - name: Install Snyk & Snyk-Delta
-        run: npm install -g snyk snyk-delta
-        shell: bash
-
+        run: |
+            npm install -g snyk snyk-delta  
+            snyk auth $SNYK_TOKEN
       - name: Run snyk_delta_all_projects.sh
         run: ./snyk-delta-all-projects.sh --exclude=scripts
         shell: bash
