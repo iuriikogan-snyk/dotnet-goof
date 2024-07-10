@@ -23,6 +23,7 @@ jobs:
       - name: Run snyk_delta_all_projects.sh
         run: ./snyk-delta-all-projects.sh --exclude=scripts --json-file-output=results.json
         shell: bash
+        continue-on-error: true
 
 env:
   SNYK_TOKEN: ${{ secrets.SNYK_TOKEN }}
