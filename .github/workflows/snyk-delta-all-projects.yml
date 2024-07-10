@@ -13,7 +13,7 @@ jobs:
         run: sudo apt-get update && sudo apt-get install -y jq
 
       - name: Run snyk_delta_all_projects.sh
-        run: ./snyk_delta_all_projects.sh --exclude=scripts
+        run: bash ${GITHUB_WORKSPACE}/snyk_delta_all_projects.sh --exclude=scripts
 
 env:
   # Store your Snyk token as a secret named 'SNYK_TOKEN'
