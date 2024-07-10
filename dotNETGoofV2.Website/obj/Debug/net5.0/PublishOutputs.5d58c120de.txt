@@ -293,8 +293,6 @@
 /Users/iuriikogan/Development/github.com/iuriikogan-snyk/dotnet-goof/dotNETGoofV2.Website/bin/Debug/net5.0/publish/refs/System.Security.Principal.dll
 /Users/iuriikogan/Development/github.com/iuriikogan-snyk/dotnet-goof/dotNETGoofV2.Website/bin/Debug/net5.0/publish/refs/System.Security.Principal.Windows.dll
 /Users/iuriikogan/Development/github.com/iuriikogan-snyk/dotnet-goof/dotNETGoofV2.Website/bin/Debug/net5.0/publish/refs/System.Security.SecureString.dll
-/Users/iuriikogan/Development/github.com/iuriikogan-snyk/dotnet-goof/dotNETGoofV2.Website/bin/Debug/net5.0/publish/refs/System.ServiceModel.dll
-/Users/iuriikogan/Development/github.com/iuriikogan-snyk/dotnet-goof/dotNETGoofV2.Website/bin/Debug/net5.0/publish/refs/System.ServiceModel.Primitives.dll
 /Users/iuriikogan/Development/github.com/iuriikogan-snyk/dotnet-goof/dotNETGoofV2.Website/bin/Debug/net5.0/publish/refs/System.ServiceModel.Web.dll
 /Users/iuriikogan/Development/github.com/iuriikogan-snyk/dotnet-goof/dotNETGoofV2.Website/bin/Debug/net5.0/publish/refs/System.ServiceProcess.dll
 /Users/iuriikogan/Development/github.com/iuriikogan-snyk/dotnet-goof/dotNETGoofV2.Website/bin/Debug/net5.0/publish/refs/System.Text.Encoding.CodePages.dll
@@ -340,6 +338,7 @@
 /Users/iuriikogan/Development/github.com/iuriikogan-snyk/dotnet-goof/dotNETGoofV2.Website/bin/Debug/net5.0/publish/Common.Logging.dll
 /Users/iuriikogan/Development/github.com/iuriikogan-snyk/dotnet-goof/dotNETGoofV2.Website/bin/Debug/net5.0/publish/Common.Logging.Core.dll
 /Users/iuriikogan/Development/github.com/iuriikogan-snyk/dotnet-goof/dotNETGoofV2.Website/bin/Debug/net5.0/publish/Confluent.Kafka.dll
+/Users/iuriikogan/Development/github.com/iuriikogan-snyk/dotnet-goof/dotNETGoofV2.Website/bin/Debug/net5.0/publish/ExCSS.dll
 /Users/iuriikogan/Development/github.com/iuriikogan-snyk/dotnet-goof/dotNETGoofV2.Website/bin/Debug/net5.0/publish/Fizzler.dll
 /Users/iuriikogan/Development/github.com/iuriikogan-snyk/dotnet-goof/dotNETGoofV2.Website/bin/Debug/net5.0/publish/Halibut.dll
 /Users/iuriikogan/Development/github.com/iuriikogan-snyk/dotnet-goof/dotNETGoofV2.Website/bin/Debug/net5.0/publish/HtmlAgilityPack.dll
@@ -405,10 +404,14 @@
 /Users/iuriikogan/Development/github.com/iuriikogan-snyk/dotnet-goof/dotNETGoofV2.Website/bin/Debug/net5.0/publish/ReverseMarkdown.dll
 /Users/iuriikogan/Development/github.com/iuriikogan-snyk/dotnet-goof/dotNETGoofV2.Website/bin/Debug/net5.0/publish/runtime.osx.10.10-x64.CoreCompat.System.Drawing.dll
 /Users/iuriikogan/Development/github.com/iuriikogan-snyk/dotnet-goof/dotNETGoofV2.Website/bin/Debug/net5.0/publish/SendGrid.dll
+/Users/iuriikogan/Development/github.com/iuriikogan-snyk/dotnet-goof/dotNETGoofV2.Website/bin/Debug/net5.0/publish/ServiceStack.RazorEngine.dll
+/Users/iuriikogan/Development/github.com/iuriikogan-snyk/dotnet-goof/dotNETGoofV2.Website/bin/Debug/net5.0/publish/ServiceStack.ServiceInterface.dll
 /Users/iuriikogan/Development/github.com/iuriikogan-snyk/dotnet-goof/dotNETGoofV2.Website/bin/Debug/net5.0/publish/ServiceStack.dll
-/Users/iuriikogan/Development/github.com/iuriikogan-snyk/dotnet-goof/dotNETGoofV2.Website/bin/Debug/net5.0/publish/ServiceStack.Client.dll
 /Users/iuriikogan/Development/github.com/iuriikogan-snyk/dotnet-goof/dotNETGoofV2.Website/bin/Debug/net5.0/publish/ServiceStack.Common.dll
 /Users/iuriikogan/Development/github.com/iuriikogan-snyk/dotnet-goof/dotNETGoofV2.Website/bin/Debug/net5.0/publish/ServiceStack.Interfaces.dll
+/Users/iuriikogan/Development/github.com/iuriikogan-snyk/dotnet-goof/dotNETGoofV2.Website/bin/Debug/net5.0/publish/ServiceStack.OrmLite.SqlServer.dll
+/Users/iuriikogan/Development/github.com/iuriikogan-snyk/dotnet-goof/dotNETGoofV2.Website/bin/Debug/net5.0/publish/ServiceStack.OrmLite.dll
+/Users/iuriikogan/Development/github.com/iuriikogan-snyk/dotnet-goof/dotNETGoofV2.Website/bin/Debug/net5.0/publish/ServiceStack.Redis.dll
 /Users/iuriikogan/Development/github.com/iuriikogan-snyk/dotnet-goof/dotNETGoofV2.Website/bin/Debug/net5.0/publish/ServiceStack.Text.dll
 /Users/iuriikogan/Development/github.com/iuriikogan-snyk/dotnet-goof/dotNETGoofV2.Website/bin/Debug/net5.0/publish/SQLitePCLRaw.batteries_v2.dll
 /Users/iuriikogan/Development/github.com/iuriikogan-snyk/dotnet-goof/dotNETGoofV2.Website/bin/Debug/net5.0/publish/SQLitePCLRaw.nativelibrary.dll
@@ -421,12 +424,10 @@
 /Users/iuriikogan/Development/github.com/iuriikogan-snyk/dotnet-goof/dotNETGoofV2.Website/bin/Debug/net5.0/publish/System.Composition.Runtime.dll
 /Users/iuriikogan/Development/github.com/iuriikogan-snyk/dotnet-goof/dotNETGoofV2.Website/bin/Debug/net5.0/publish/System.Composition.TypedParts.dll
 /Users/iuriikogan/Development/github.com/iuriikogan-snyk/dotnet-goof/dotNETGoofV2.Website/bin/Debug/net5.0/publish/System.Configuration.ConfigurationManager.dll
+/Users/iuriikogan/Development/github.com/iuriikogan-snyk/dotnet-goof/dotNETGoofV2.Website/bin/Debug/net5.0/publish/System.Drawing.Common.dll
 /Users/iuriikogan/Development/github.com/iuriikogan-snyk/dotnet-goof/dotNETGoofV2.Website/bin/Debug/net5.0/publish/System.Linq.Dynamic.Core.dll
-/Users/iuriikogan/Development/github.com/iuriikogan-snyk/dotnet-goof/dotNETGoofV2.Website/bin/Debug/net5.0/publish/System.Private.ServiceModel.dll
 /Users/iuriikogan/Development/github.com/iuriikogan-snyk/dotnet-goof/dotNETGoofV2.Website/bin/Debug/net5.0/publish/System.Runtime.Caching.dll
 /Users/iuriikogan/Development/github.com/iuriikogan-snyk/dotnet-goof/dotNETGoofV2.Website/bin/Debug/net5.0/publish/System.Security.Cryptography.ProtectedData.dll
-/Users/iuriikogan/Development/github.com/iuriikogan-snyk/dotnet-goof/dotNETGoofV2.Website/bin/Debug/net5.0/publish/System.ServiceModel.Primitives.dll
-/Users/iuriikogan/Development/github.com/iuriikogan-snyk/dotnet-goof/dotNETGoofV2.Website/bin/Debug/net5.0/publish/System.ServiceModel.dll
 /Users/iuriikogan/Development/github.com/iuriikogan-snyk/dotnet-goof/dotNETGoofV2.Website/bin/Debug/net5.0/publish/System.Xml.XPath.XmlDocument.dll
 /Users/iuriikogan/Development/github.com/iuriikogan-snyk/dotnet-goof/dotNETGoofV2.Website/bin/Debug/net5.0/publish/Wire.dll
 /Users/iuriikogan/Development/github.com/iuriikogan-snyk/dotnet-goof/dotNETGoofV2.Website/bin/Debug/net5.0/publish/cs/Microsoft.CodeAnalysis.resources.dll
@@ -530,6 +531,8 @@
 /Users/iuriikogan/Development/github.com/iuriikogan-snyk/dotnet-goof/dotNETGoofV2.Website/bin/Debug/net5.0/publish/runtimes/win-arm64/native/e_sqlite3.dll
 /Users/iuriikogan/Development/github.com/iuriikogan-snyk/dotnet-goof/dotNETGoofV2.Website/bin/Debug/net5.0/publish/runtimes/win-x64/native/e_sqlite3.dll
 /Users/iuriikogan/Development/github.com/iuriikogan-snyk/dotnet-goof/dotNETGoofV2.Website/bin/Debug/net5.0/publish/runtimes/win-x86/native/e_sqlite3.dll
+/Users/iuriikogan/Development/github.com/iuriikogan-snyk/dotnet-goof/dotNETGoofV2.Website/bin/Debug/net5.0/publish/runtimes/unix/lib/netcoreapp3.0/System.Drawing.Common.dll
+/Users/iuriikogan/Development/github.com/iuriikogan-snyk/dotnet-goof/dotNETGoofV2.Website/bin/Debug/net5.0/publish/runtimes/win/lib/netcoreapp3.0/System.Drawing.Common.dll
 /Users/iuriikogan/Development/github.com/iuriikogan-snyk/dotnet-goof/dotNETGoofV2.Website/bin/Debug/net5.0/publish/runtimes/unix/lib/netcoreapp2.0/System.Runtime.Caching.dll
 /Users/iuriikogan/Development/github.com/iuriikogan-snyk/dotnet-goof/dotNETGoofV2.Website/bin/Debug/net5.0/publish/runtimes/win/lib/netcoreapp2.0/System.Runtime.Caching.dll
 /Users/iuriikogan/Development/github.com/iuriikogan-snyk/dotnet-goof/dotNETGoofV2.Website/bin/Debug/net5.0/publish/runtimes/win/lib/netstandard2.0/System.Security.Cryptography.ProtectedData.dll

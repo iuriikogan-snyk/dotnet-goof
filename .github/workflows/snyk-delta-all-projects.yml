@@ -1,0 +1,23 @@
+name: Snyk Delta All Projects
+
+on:
+  push: {}
+
+jobs:
+  snyk-delta:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+
+      - name: Install jq
+        run: sudo apt-get update && sudo apt-get install -y jq
+
+      - name: Run snyk_delta_all_projects.sh
+        uses: ./snyk_delta_all_projects.sh  # Replace with the path to your script
+        with:
+          severity: high  # You can set additional arguments here
+          exclude: scripts  # You can add more comma-separated exclusions
+
+env:
+  # Store your Snyk token as a secret named 'SNYK_TOKEN'
+  SNYK_TOKEN: ${{ secrets.SNYK_TOKEN }}
