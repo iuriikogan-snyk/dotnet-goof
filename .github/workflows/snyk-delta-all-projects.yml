@@ -16,5 +16,4 @@ jobs:
         run: bash ${GITHUB_WORKSPACE}/snyk_delta_all_projects.sh --exclude=scripts
 
 env:
-  # Store your Snyk token as a secret named 'SNYK_TOKEN'
   SNYK_TOKEN: ${{ secrets.SNYK_TOKEN }}
