@@ -1,3 +1,3 @@
 #!/bin/bash
 
-find . -type f -name "project.assets.json" -exec sh -c 'snyk test --file="$0"' {} \;
+find . -type f -name "project.assets.json" -exec snyk test --file={} 
